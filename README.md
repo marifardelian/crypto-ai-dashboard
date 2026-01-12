@@ -2,12 +2,13 @@
 
 A real-time Machine Learning dashboard that predicts Bitcoin price movements. This project fetches live market data, analyzes technical indicators using three different AI algorithms (Random Forest, SVM, Logistic Regression), and visualizes the forecast on an interactive dashboard.
 
+![Dashboard Preview](dashboard_preview.png)
+
 ## Features
 
 * **Multi-Model AI:** Compare predictions from Random Forest, Logistic Regression, and Support Vector Machines (SVM).
 * **Real-Time Data:** Fetches live Bitcoin prices via the CoinGecko API.
 * **Interactive Charts:** Professional financial charts using Plotly with dynamic forecast lines.
-* **Personalization:** Upload your own custom logo or university crest directly via the sidebar.
 * **Robust Error Handling:** Includes a simulation mode that activates automatically if API rate limits are hit.
 * **Technical Indicators:** Uses 7-Day & 30-Day Moving Averages and Volatility features.
 
@@ -17,7 +18,6 @@ A real-time Machine Learning dashboard that predicts Bitcoin price movements. Th
 * **Data Visualization:** Plotly
 * **Machine Learning:** Scikit-Learn
 * **Data Handling:** Pandas, NumPy
-* **Image Processing:** Pillow
 * **API:** CoinGecko (Free Tier)
 
 ## Installation & Setup
